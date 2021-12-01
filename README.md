@@ -23,6 +23,10 @@ Oh My Docker
 
 ## 常见问题
 
+### Docker 内部访问国外网站很慢怎么办？
+
+建议安装 Proxifier 等软件，让 vpnkit.exe 走代理即可，因为 Docker 内部所有的流量都会经过 vpnkit.exe。
+
 ### 如何提升文件性能？
 
 1. 新建一个 Docker volume
